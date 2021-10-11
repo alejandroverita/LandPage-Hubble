@@ -3,8 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
+    
+    <!-- FONT-HEADER -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 
+    <!-- FONT-BODY -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link
       rel="icon"
       type="image/png"
@@ -13,23 +21,32 @@
     />
 
     <title>
-      Frontend Mentor | Huddle landing page with single introductory section
+      Huddle landing page
     </title>
-
-    <!-- No dude en eliminar estos estilos o personalizarlos en su propia hoja de estilo 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./mobile.css">
   </head>
   <body>
-    Build The Community Your Fans Will Love Huddle re-imagines the way we build
-    communities. You have a voice, but so does your audience. Create connections
-    with your users as you engage in genuine discussion. Register
+   <header>
+     <img src='./images/logo.svg' alt="Huddle Logo" >
+   </header>
+   <main>
+     <section class='main-img'>
+       <img src="./images/illustration-mockups.svg" alt="">
+     </section>
+     <section class='main-info'>
+      <h1>Build the community your fans will love</h1>
+      <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+      <button type='button'>Register</button>
+     </section>
+
+   </main>
+   <footer>
+     <ul>
+       <li class='facebook'><img src="./images/logo-facebook.svg" alt="Facebook"></li>
+       <li class="'twitter"><img src="./images/logo-twitter.svg" alt="Twitter"></li>
+       <li class="'instagram"><img src="./images/logo-instagram.svg" alt="Instagram"></li>
+     </ul>
+   </footer>
   </body>
 </html>

@@ -1,0 +1,58 @@
+@media only screen and (min-width: 1440px) {
+  body {
+    font-family: Poppins, sans-serif;
+    background-color: var(--main-bg);
+    background-image: url(./images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: var(--margin-left);
+    padding-bottom: 0;
+  }
+
+  .main-img {
+    height: auto;
+  }
+
+  .main-img img {
+    width: 800px;
+  }
+
+  .main-info {
+    margin-top: 80px;
+    margin-left: 40px;
+    width: 300px;
+    text-align: start;
+  }
+
+  .main-info h1 {
+    text-align: start;
+  }
+
+  .main-info p {
+    width: 125%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .main-info button {
+    width: calc(220px - 25%);
+  }
+
+  footer {
+    margin-top: 0;
+  }
+  footer ul {
+    justify-content: flex-end;
+  }
+
+  footer li img {
+    width: 40px;
+    height: 40px;
+  }
+}
